@@ -1,0 +1,90 @@
+  .customIcon {
+      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 21px;
+    }
+
+    .logo {
+      background: var(--main-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    :root {
+      --main-gradient: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      --bs-primary: #6f42c1;
+      --bs-primary-rgb: 111, 66, 193;
+      /* Required for utilities with opacity */
+      --dark-ui: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+    }
+
+    body {
+      background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+       min-height: 100vh;
+    }
+
+    .customNav {
+      color: white !important;
+    }
+
+    .logotext {
+      font-size: 21px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    .sk-btn{
+         background: linear-gradient(135deg, #7b2ff7, #9b4dff);
+         color: white;
+    }
+
+    .sk-btn:hover{
+       background: linear-gradient(135deg, #7b2ff7, #9b4dff);
+        color: white;
+    }
+
+    .active {
+      color: #A78BFA !important;
+    }
+
+    .activehead{
+       color: #7C3AED !important;
+    }
+
+    .activebtn {
+      border: 1px solid #A78BFA;
+      color: #7C3AED !important;
+    }
+
+    .activebtn:hover {
+      background-color: #7C3AED;
+      color: white !important;
+    }
+
+    .icon-Color{
+      color: #7C3AED;
+      font-size: 25px;
+    }
+
+    .customNav {
+      background: linear-gradient(135deg, #0B0B12, #1A1A40);
+    }
+
+   .container{
+     background: transparent;
+   }
+
+   .Customtxt{
+    font-size: 12px;
+     font-family: 'Saira', sans-serif; 
+   }
+
+   .headFont{
+     font-family: 'Saira', sans-serif;
+   }
+
+   .customImg{
+    height: 400px;
+    width: 500px;
+   }
