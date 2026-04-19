@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* CARD */
+
 .auth-card {
   width: 360px;
   background: var(--card-bg);
@@ -25,7 +25,7 @@ body {
   border: 1px solid var(--border-light);
 }
 
-/* LOGO */
+
 .logo {
   background: var(--main-gradient);
   -webkit-background-clip: text;
@@ -39,7 +39,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* INPUT */
+
 .input-group-text {
   background-color: var(--input-bg);
   border: none;
@@ -62,7 +62,7 @@ body {
   box-shadow: 0 0 8px rgba(124, 58, 237, 0.6);
 }
 
-/* BUTTON */
+
 .auth-btn {
   background: var(--main-gradient);
   border: none;
@@ -78,7 +78,6 @@ body {
   box-shadow: 0 0 15px rgba(124, 58, 237, 0.6);
 }
 
-/* LINKS */
 .link {
   color: #a855f7;
   text-decoration: none;
