@@ -9,6 +9,32 @@ body{
        min-height: 100vh;
 }
 
+
+  body {
+      display: flex;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .customNav {
+      display: block;
+      justify-content: space-between;
+    }
+
+    .profile{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    .icon{
+      font-size: 1.3rem;
+    }
+    .CustomInput{
+      width: 350px !important;
+    }
+
 .navbar{
    background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
 }
