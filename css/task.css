@@ -94,3 +94,30 @@ body{
       background: linear-gradient(135deg, #7C3AED, #8B5CF6);
       color: #ffff !important;
    }
+
+
+
+    body {
+      display: flex;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .customNav {
+      display: block;
+      justify-content: space-between;
+    }
+
+    .profile{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    .icon{
+      font-size: 1.3rem;
+    }
+    .CustomInput{
+      width: 350px !important;
+    }
