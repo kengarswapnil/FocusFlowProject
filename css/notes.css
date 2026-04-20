@@ -1,0 +1,132 @@
+.sidebar{
+   height: 557px;
+     background: linear-gradient(180deg, #0B0F2A, #090D1F) !important;
+}
+
+body{
+  overflow-y: hidden;
+      background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+       min-height: 100vh;
+}
+
+
+  body {
+      display: flex;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .customNav {
+      display: block;
+      justify-content: space-between;
+    }
+
+    .profile{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    .icon{
+      font-size: 1.3rem;
+    }
+    .CustomInput{
+      width: 350px !important;
+    }
+
+.navbar{
+   background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+}
+   :root {
+      --main-gradient: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      --bs-primary: #6f42c1;
+      --bs-primary-rgb: 111, 66, 193;
+      /* Required for utilities with opacity */
+      --dark-ui: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+    }
+
+ .logo {
+      background: var(--main-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  .customIcon {
+      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 21px;
+    }
+
+    .form-control {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-control {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.btn-control:hover{
+   background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
+     .logotext {
+      font-size: 21px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+     .headFont{
+     font-family: 'Saira', sans-serif;
+   }
+
+   .nav-link.active{
+      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
+      color: #ffff !important;
+   }
+
+
+
+    body {
+      display: flex;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .customNav {
+      display: block;
+      justify-content: space-between;
+    }
+
+    .profile{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    .icon{
+      font-size: 1.3rem;
+    }
+    .CustomInput{
+      width: 350px !important;
+    }
+
+
+    .btn-purple,
+.btn-primary {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
