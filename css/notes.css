@@ -1,64 +1,69 @@
-.sidebar{
-   height: 557px;
-     background: linear-gradient(180deg, #0B0F2A, #090D1F) !important;
+.sidebar {
+  height: 557px;
+  background: linear-gradient(180deg, #0b0f2a, #090d1f) !important;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
-body{
+body {
   overflow-y: hidden;
-      background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
-       min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0f, #1e1b4b);
+  min-height: 100vh;
+  position: relative;
 }
 
-
-  body {
-      display: flex;
-    }
-
-    .main-content {
-      flex: 1;
-    }
-
-    .customNav {
-      display: block;
-      justify-content: space-between;
-    }
-
-    .profile{
-      display: flex;
-      justify-content:space-evenly;
-    }
-
-    .icon{
-      font-size: 1.3rem;
-    }
-    .CustomInput{
-      width: 350px !important;
-    }
-
-.navbar{
-   background: linear-gradient(135deg, #0A0A0F, #1E1B4B);
+body {
+  display: flex;
 }
-   :root {
-      --main-gradient: linear-gradient(135deg, #7C3AED, #8B5CF6);
-      --bs-primary: #6f42c1;
-      --bs-primary-rgb: 111, 66, 193;
-      /* Required for utilities with opacity */
-      --dark-ui: linear-gradient(135deg, #0A0A0F, #1E1B4B);
-    }
 
- .logo {
-      background: var(--main-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  .customIcon {
-      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 21px;
-    }
+.main-content {
+  flex: 1;
+}
 
-    .form-control {
+.customNav {
+  display: block;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+.CustomInput {
+  width: 350px !important;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #0a0a0f, #1e1b4b);
+  position: sticky;
+  top: 0;
+}
+:root {
+  --main-gradient: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  --bs-primary: #6f42c1;
+  --bs-primary-rgb: 111, 66, 193;
+  /* Required for utilities with opacity */
+  --dark-ui: linear-gradient(135deg, #0a0a0f, #1e1b4b);
+}
+
+.logo {
+  background: var(--main-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.customIcon {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 21px;
+}
+
+.form-control {
   background: transparent !important;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
@@ -73,57 +78,53 @@ body{
   color: white;
 }
 
-.btn-control:hover{
-   background: transparent !important;
+.btn-control:hover {
+  background: transparent !important;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
 }
 
+.logotext {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 
-     .logotext {
-      font-size: 21px;
-      font-weight: bold;
-      font-family: sans-serif;
-    }
+.headFont {
+  font-family: "Saira", sans-serif;
+}
 
-     .headFont{
-     font-family: 'Saira', sans-serif;
-   }
+.nav-link.active {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+  color: #ffff !important;
+}
 
-   .nav-link.active{
-      background: linear-gradient(135deg, #7C3AED, #8B5CF6);
-      color: #ffff !important;
-   }
+body {
+  display: flex;
+}
 
+.main-content {
+  flex: 1;
+}
 
+.customNav {
+  display: block;
+  justify-content: space-between;
+}
 
-    body {
-      display: flex;
-    }
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-    .main-content {
-      flex: 1;
-    }
+.icon {
+  font-size: 1.3rem;
+}
+.CustomInput {
+  width: 350px !important;
+}
 
-    .customNav {
-      display: block;
-      justify-content: space-between;
-    }
-
-    .profile{
-      display: flex;
-      justify-content:space-evenly;
-    }
-
-    .icon{
-      font-size: 1.3rem;
-    }
-    .CustomInput{
-      width: 350px !important;
-    }
-
-
-    .btn-purple,
+.btn-purple,
 .btn-primary {
   background: linear-gradient(135deg, #7c3aed, #8b5cf6);
   border: none;

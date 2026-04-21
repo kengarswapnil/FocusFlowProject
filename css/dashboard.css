@@ -6,14 +6,18 @@
 body {
   margin: 0;
   display: flex;
-  overflow-y: hidden;
+  overflow-x: hidden;
   min-height: 100vh;
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #0a0a0f, #1e1b4b);
   color: #fff;
+  position: relative;
 }
 
 .sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 250px;
   height: 100vh;
   background: linear-gradient(180deg, #0b0f2a, #090d1f);
@@ -47,6 +51,8 @@ body {
 .navbar {
   background: linear-gradient(135deg, #0a0a0f, #1e1b4b) !important;
   padding: 10px 20px;
+  position: sticky;
+  top: 0;
 }
 
 .CustomInput {
