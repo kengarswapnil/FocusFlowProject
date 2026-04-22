@@ -115,7 +115,112 @@
         </div>
       </div>
     </nav>
+  
+
+  <div class="dashboard">
+  <h1 class="page-title text-white">My Tasks</h1>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Pending</button>
+    <button class="filter-btn">Completed</button>
+    <input type="text" class="search-box" placeholder="🔍  Search tasks..."/>
+    <button class="add-btn">
+      <i class="bi bi-plus-lg"></i> Add Task
+    </button>
   </div>
+
+  <!-- Main Grid -->
+  <div class="main-grid">
+
+    <!-- Task List -->
+    <div class="task-list-card">
+
+      <!-- Task 1 — done -->
+      <div class="task-item">
+        <div class="chk done"></div>
+        <span class="task-name done">Complete Project Documentation</span>
+        <span class="task-badge badge-today">Today</span>
+        <div class="task-actions">
+          <button class="icon-btn edit"><i class="bi bi-pencil"></i></button>
+          <button class="icon-btn del"><i class="bi bi-trash"></i></button>
+        </div>
+      </div>
+
+      <!-- Task 2 — done -->
+      <div class="task-item">
+        <div class="chk done"></div>
+        <span class="task-name done">Buy Groceries</span>
+        <span class="task-badge badge-tomorrow">Tomorrow</span>
+        <div class="task-actions">
+          <button class="icon-btn edit"><i class="bi bi-pencil"></i></button>
+          <button class="icon-btn del"><i class="bi bi-trash"></i></button>
+        </div>
+      </div>
+
+      <!-- Task 3 — pending -->
+      <div class="task-item">
+        <div class="chk pending"></div>
+        <span class="task-name">Call Mom</span>
+        <span class="task-badge badge-date">Jan 15</span>
+        <div class="task-actions">
+          <button class="icon-btn edit"><i class="bi bi-pencil"></i></button>
+          <button class="icon-btn del"><i class="bi bi-trash"></i></button>
+        </div>
+      </div>
+
+      <!-- Task 4 — pending -->
+      <div class="task-item">
+        <div class="chk pending"></div>
+        <span class="task-name">Learn React.js</span>
+        <span class="task-badge badge-date">Jan 20</span>
+        <div class="task-actions">
+          <button class="icon-btn edit"><i class="bi bi-pencil"></i></button>
+          <button class="icon-btn del"><i class="bi bi-trash"></i></button>
+        </div>
+      </div>
+
+      <!-- Task 5 — pending -->
+      <div class="task-item">
+        <div class="chk pending"></div>
+        <span class="task-name">Plan Weekend Trip</span>
+        <span class="task-badge badge-date">Jan 25</span>
+        <div class="task-actions">
+          <button class="icon-btn edit"><i class="bi bi-pencil"></i></button>
+          <button class="icon-btn del"><i class="bi bi-trash"></i></button>
+        </div>
+      </div>
+
+    </div><!-- /task-list-card -->
+
+    <!-- Summary Card -->
+    <div class="summary-card">
+      <div class="summary-title">Task Summary</div>
+
+      <div class="donut-wrap">
+        <div class="donut-ring"></div>
+        <div class="donut-center">
+          <div class="donut-count">8</div>
+          <div class="donut-label">Total Tasks</div>
+        </div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-dot" style="background:var(--green)"></div>
+          <span>Completed (5)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:var(--orange)"></div>
+          <span>Pending (3)</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /main-grid -->
+</div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
