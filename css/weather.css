@@ -191,19 +191,18 @@ body {
   height: 100px;
 }
 
-/* Text Styling */
+
 #weatherResult p {
   margin: 5px 0;
   font-size: 15px;
   color: #cbd5e1;
 }
 
-/* Divider */
+
 #weatherResult hr {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -215,7 +214,7 @@ body {
   }
 }
 
-/* Dynamic backgrounds */
+
 body.clear {
   background: linear-gradient(135deg, #4facfe, #00f2fe);
 }
