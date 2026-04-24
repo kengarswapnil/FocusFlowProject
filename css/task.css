@@ -22,9 +22,6 @@ body{
 }
 
 
-  body {
-      display: flex;
-    }
 
     .main-content {
       flex: 1;
@@ -146,7 +143,7 @@ body{
       width: 350px !important;
     }
 
-<<<<<<< HEAD
+
 
     /* task.css */
      .dashboard { width: 100%; max-width: 860px; }
