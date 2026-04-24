@@ -13,8 +13,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/task.css">
-  
+  <link rel="stylesheet" href="./css/dashboard.css">
+
+  <style>
+    .card1 {
+      width: 300px;
+    }
+
+    .button {
+      display: flex;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -27,9 +37,9 @@
           class="logo">Flow</span></span>
     </a>
     <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active text-secondary headFont" aria-current="page">
+    <ul class="nav nav-pills flex-column mb-auto ">
+      <li>
+        <a href="./dashboard.html" class="nav-link active text-secondary headFont" aria-current="page">
           <i class="fa-regular fa-house me-3"></i>
           Dashboard
         </a>
@@ -42,14 +52,14 @@
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-secondary headFont">
+        <a href="" class="nav-link text-secondary headFont">
 
           <i class="fa-solid fa-stopwatch me-3"></i>
           Timer
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-secondary headFont">
+        <a href="./notes.html" class="nav-link text-secondary headFont">
 
           <i class="fa-regular fa-clipboard me-3"></i>
           Notes
@@ -63,7 +73,7 @@
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-secondary headFont">
+        <a href="./analytics.html" class="nav-link text-secondary headFont">
           <i class="fa-solid fa-chart-column me-3"></i>
           Anylatics
         </a>
@@ -83,23 +93,22 @@
 
 
   <div class="main-content">
+
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid ">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-
 
         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <form class="d-flex ms-3" role="search">
-            <input class="form-control CustomInput" type="search" placeholder="Search" aria-label="Search" />
+          <form class="d-flex ms-3" role="search">
+            <input class="form-control CustomInput text-white" type="search" placeholder="Search" aria-label="Search" />
           </form>
 
-
           <div class="profile me-5">
-            <a  class="me-3"><i class="fa-solid fa-bell icon mt-2"></i></a>
+            <a class="me-3"><i class="fa-solid fa-bell icon mt-2"></i></a>
             <div class="dropdown">
               <button class="btn btn-control dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -107,14 +116,15 @@
                 John Doe
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-primary" href="#">View Profile</a></li>
+                <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </nav>
+<<<<<<< HEAD
   
 
   <div class="dashboard">
@@ -129,6 +139,96 @@
     <button class="add-btn">
       <i class="bi bi-plus-lg"></i> Add Task
     </button>
+=======
+
+    <div class="container-fluid p-4">
+
+
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h3 class="fw-bold">Good Morning, John <span><i class="fa-solid fa-hands-clapping"></i></i></span></h3>
+          <button class="btn btn-primary px-4 py-2">
+            Timer
+          </button>
+          <button class="btn btn-control px-4 py-2">
+            Short Break
+          </button>
+          <button class="btn btn-control px-4 py-2">
+            Long Break
+          </button>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- Main Section -->
+    <div class="row g-3 d-flex justify-content-center">
+
+
+
+
+      <!-- Pomodoro -->
+      <div class="col-md-3 me-5">
+        <div class="card1 card p-4 text-center shadow-sm mb-2">
+          <h5>Pomodoro Timer</h5>
+
+          <div class="my-4">
+            <div class="rounded-circle border border-4 d-flex justify-content-center align-items-center mx-auto"
+              style="width:150px;height:150px;font-size:24px;">
+              25:00
+            </div>
+          </div>
+
+          <div class="button text-center ">
+            <button class="btn btn-primary px-3 ms-1">Start</button>
+            <button class="btn btn-primary px-3 ms-1">Pause</button>
+            <button class="btn btn-primary px-3 ms-1">Reset</button>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Tasks -->
+      <div class="col-md-6 ms-5">
+        <div class="card p-3 m-2 shadow-sm">
+          <div class="d-flex justify-content-between mb-3">
+            <h5>Today's Tasks</h5>
+            <a href="#" class="text-primary">View All</a>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <input type="checkbox" checked> Finish JavaScript Project
+              <span class="float-end text-danger">10:00 AM</span>
+            </li>
+
+            <li class="list-group-item">
+              <input type="checkbox" checked> Workout & Exercise
+              <span class="float-end text-warning">8:00 AM</span>
+            </li>
+
+            <li class="list-group-item">
+              <input type="checkbox"> Read 30 Minutes
+              <span class="float-end text-secondary">8:00 PM</span>
+            </li>
+
+            <li class="list-group-item">
+              <input type="checkbox"> Team Meeting
+              <span class="float-end text-info">2:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+>>>>>>> d8a4b2eddd53ef08f098ccb33557c4d67892292b
   </div>
 
   <!-- Main Grid -->
