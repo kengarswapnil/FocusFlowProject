@@ -10,6 +10,8 @@ const app = express();
 
 // ✅ Import route (correct file name)
 const authRouter = require("./routes/authRouter");
+const taskRoutes = require("./routes/taskRoute");
+
 
 
 
@@ -18,6 +20,7 @@ app.use(express.static(path.join(__dirname,"public")))
 app.use(express.json());
 
 app.use("/api/auth", authRouter); 
+app.use("/api/tasks", taskRoutes);
 
 app.get('/',(req,res)=>{
   res.sendFile(path.join(__dirname,"public/dashboard.html"));
