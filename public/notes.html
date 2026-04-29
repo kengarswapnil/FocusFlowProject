@@ -120,123 +120,57 @@
     <div class="container mt-4">
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h3 class="fw-bold text-white">My Notes</h3>
-        <button class="btn btn-primary px-4 py-2">
-          <i class="fa-solid fa-plus me-2"></i> Add Note
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="bi bi-plus-lg"></i> Add Notes
         </button>
       </div>
     </div>
 
 
     <div class="container mt-4">
-      <div class="row g-4">
+      <div class="row g-4" id="card">
 
         <!-- Card 1 -->
-       <div class="col-md-3">
-  <div class="card text-white bg-primary h-100">
-    
-    <div class="card-body d-flex flex-column">
-      
-      <!-- Top Content -->
-      <div>
-        <h5 class="card-title">Tasks</h5>
-        <p class="card-text ">Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-        </p>
+        
       </div>
-
-      <!-- Bottom Date -->
-      <p class="mt-auto small">
-        <i class="fa-regular fa-clock me-1"></i>
-        <span class="date-time"></span>
-      </p>
-
     </div>
 
-  </div>
-</div>
 
-       <div class="col-md-3">
-  <div class="card text-white bg-success h-100">
-    
-    <div class="card-body d-flex flex-column">
-      
-      <!-- Top Content -->
-      <div>
-        <h5 class="card-title">Tasks</h5>
-        <p class="card-text">Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-        </p>
-      </div>
 
-      <!-- Bottom Date -->
-      <p class="mt-auto small">
-        <i class="fa-regular fa-clock me-1"></i>
-        <span class="date-time"></span>
-      </p>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Add Tasks</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-secondary">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="title" placeholder="name@example.com" />
+              <label for="task">Task</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="content" placeholder="Add content" />
+              <label for="content">Content</label>
+            </div>
 
-    </div>
-
-  </div>
-</div>
-
-        <div class="col-md-3">
-  <div class="card text-white bg-warning h-100">
-    
-    <div class="card-body d-flex flex-column">
-      
-      <!-- Top Content -->
-      <div>
-        <h5 class="card-title">Tasks</h5>
-        <p class="card-text">Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-          Manage your daily tasks efficiently.
-        </p>
-      </div>
-
-      <!-- Bottom Date -->
-      <p class="mt-auto small">
-        <i class="fa-regular fa-clock me-1"></i>
-        <span class="date-time"></span>
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-       <div class="col-md-3">
-  <div class="card text-white bg-danger h-100">
-    
-    <div class="card-body d-flex flex-column">
-      
-      <!-- Top Content -->
-      <div>
-        <h5 class="card-title">Tasks</h5>
-        <p class="card-text">Manage your daily tasks efficiently.
-
-        Manage your daily tasks efficiently.
-        Manage your daily tasks efficiently.
-        </p>
-      </div>
-
-      <!-- Bottom Date -->
-      <p class="mt-auto small">
-        <i class="fa-regular fa-clock me-1"></i>
-        <span class="date-time"></span>
-      </p>
-
-    </div>
-
-  </div>
-</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" id="addnotes" data-bs-dismiss="modal">Add Notes</button>
+          </div>
+        </div>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"></script>
+
+    <script src="js/notes.js"></script>
 </body>
 
 </html>

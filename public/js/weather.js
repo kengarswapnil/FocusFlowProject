@@ -124,7 +124,6 @@ document.getElementById("cityInput").addEventListener("keypress", function(e) {
 });
 
 // // 🚀 Auto Load Location
-
-// window.onload = getLocationWeather;
+window.onload = getLocationWeather;
 
 
